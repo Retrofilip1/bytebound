@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/Assets/favicon.ico">
+    <title>ByteBound - Software Solutions</title>
+    <style>
+
+        @font-face {
+            font-family: pixelFont;
+            src: url("/Assets/PressStart2P-Regular.ttf");
+        }
+
+        body {
+            font-family: pixelFont;
+            margin: 0;
+            padding: 0;
+            color: #ffffff;
+            background-image: url("/Assets/PixelBackground.png");
+        }
+
+        header {
+            background-color: #1f1f1f;
+            color: #ecf0f1;
+            font-size: 10px;
+            padding: 20px;
+            text-align: center;
+
+            img {
+                position: fixed;
+                left:20px;
+                top:25px;
+            }
+        }
+
+        nav {
+            background-color: #e06016;
+            color: #ecf0f1;
+            font-size: 20px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+
+            a {
+                color: white;
+                font-size: 15px;
+            }
+        }
+
+        main {
+            padding: 20px;
+
+            h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 15px;
+            }
+        }
+
+        section {
+            text-align: center;
+            background-color: #1f1f1f;
+            width: 256px;
+            height: 256px;
+            margin-top: 20px;
+            border-radius: 8px;
+            border: 5px solid #181818;
+
+            h3 {
+                position: fixed;
+                font-size: 13px;
+            }
+
+            p {
+                font-size: 10px;
+            }
+
+            img {
+                width: 150px;
+                height: 150px;
+                position: fixed middle;
+                margin-top: 20px;
+                border-radius: 8px;
+            }
+            img:hover {
+                transition: linear;
+                transition-duration: 100ms;
+                opacity: 80%;
+            }
+        }
+
+        footer {
+            background-color: #e06016;
+            color: #ecf0f1;
+            text-align: center;
+            font-size: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+
+            p {
+                text-align: left;
+                padding-left: 20px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ByteBound</h1>
+        <a href="/index.html"><img href="/index.html" src="/Assets/Logo256x.png" width="64" height="64"></a>
+        <p>Delivering Innovative Software Solutions</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/Marketplace/marketplace.html">Marketplace</a></li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/services.html">Services</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Featuring our newest free assets</h1>
+        <h2>Take a look at our yet humble, but soon to be expanding library of free assets</h2>
+
+        <section id="listings">
+            <h2>Free blood textures</h2>
+            <a href="market_listing.html"><img src="Assets/FreeBloodTextures/icon.png" alt="ICON"></a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 ByteBound. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
